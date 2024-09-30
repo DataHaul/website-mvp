@@ -63,9 +63,9 @@ const Navbar = () => {
           </IconButton>
         </div>
 
-        {/* Mobile Menu */}
+        
         {isOpen && (
-          <div className="absolute top-16 left-0 w-full bg-gray-900 bg-opacity-80 backdrop-blur-lg md:hidden">
+          <div className="absolute top-16 left-0 w-full bg-[white]/40 bg-opacity-80 backdrop-blur-lg md:hidden">
             <div className="flex flex-col items-center space-y-4 py-4">
               <Link href="/">
                 <a className="text-white hover:text-yellow-500" onClick={toggleMenu}>
@@ -92,14 +92,7 @@ const Navbar = () => {
                   Contact
                 </a>
               </Link>
-              <Link href="#get-started">
-                <a
-                  className="bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-600"
-                  onClick={toggleMenu}
-                >
-                  Get Started
-                </a>
-              </Link>
+              
             </div>
           </div>
         )}

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center space-y-4">
      
         <div className="flex items-center space-x-3">
-          <Image src="/images/Logo.png" alt="DataHaul Logo" width={50} height={30} />
+          <Image src="/images/Logo.webp" alt="DataHaul Logo" width={50} height={30} />
           <Link href="/" className="text-2xl font-bold text-green-500 hover:underline">
             DataHaul
           </Link>

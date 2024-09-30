@@ -10,10 +10,10 @@ const FeaturesSection = () => {
           <div className="grid grid-cols-2 gap-2">
             
             {[
-              { src: "/images/Feature1.png", alt: "Data Analysis 1", text: "Predictive Analytics", width: "w-[320px]", height: "h-[240px]" },
-              { src: "/images/feature1.jpg", alt: "Data Analysis 2", text: "Digital Marketplace", width: "w-[280px]", height: "h-[180px]" },
-              { src: "/images/feature3.jpg", alt: "Data Analysis 3", text: "Sourcing Farm Inputs", width: "w-[390px]", height: "h-[180px]" },
-              { src: "/images/feature4.jpg", alt: "Data Analysis 4", text: "Community Forum", width: "w-[280px]", height: "h-[240px]" },
+              { src: "/images/feature1.webp", alt: "Data Analysis 1", text: "Predictive Analytics", width: "w-[320px]", height: "h-[240px]" },
+              { src: "/images/feature2.webp", alt: "Data Analysis 2", text: "Digital Marketplace", width: "w-[280px]", height: "h-[180px]" },
+              { src: "/images/feature3.webp", alt: "Data Analysis 3", text: "Sourcing Farm Inputs", width: "w-[390px]", height: "h-[180px]" },
+              { src: "/images/feature4.webp", alt: "Data Analysis 4", text: "Community Forum", width: "w-[280px]", height: "h-[240px]" },
             ].map((image, index) => (
               <div className="relative group overflow-hidden" key={index}>
                 <img 
