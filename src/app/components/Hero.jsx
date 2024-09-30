@@ -18,7 +18,7 @@ const HeroSection = () => {
      
       <div className="hidden md:block w-full md:w-1/2 h-full relative">
         <Image
-          src="/images/DataHaul.png"
+          src="/images/DataHaul.webp"
           alt="Farmers in the field"
           layout="fill"
           objectFit="cover"
