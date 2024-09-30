@@ -20,9 +20,11 @@ const HeroSection = () => {
         <Image
           src="/images/DataHaul.webp"
           alt="Farmers in the field"
-          layout="fill"
-          objectFit="cover"
+          // layout="fill"
+          // objectFit="cover"
+          style={{ objectFit: 'cover' }}
           priority={true}
+          fill={true}
         />
       </div>
       
