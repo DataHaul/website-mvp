@@ -20,6 +20,7 @@ const HeroSection = () => {
         <img
           src="/images/DataHaul.webp"
           alt="Farmers in the field"
+
           fill="true" 
           priority="true"
           // priority={true}
