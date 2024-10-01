@@ -67,28 +67,28 @@ const Navbar = () => {
         {isOpen && (
           <div className="absolute top-16 left-0 w-full bg-[white]/40 bg-opacity-80 backdrop-blur-lg md:hidden">
             <div className="flex flex-col items-center space-y-4 py-4">
-              <Link href="/">
+              <Link href="/" legacyBehavior>
                 <a className="text-gray-950 hover:text-yellow-500 text-color" onClick={toggleMenu}>
                   Home
                 </a>
               </Link>
-              <Link href="#about">
+              <Link href="#about" legacyBehavior>
                 <a className="text-gray-950 hover:text-yellow-500 text-color" onClick={toggleMenu}>
                   About
                 </a>
               </Link>
-              <Link href="#products">
-                <a className="text-gray-950 hover:text-yellow-500" onClick={toggleMenu}>
+              <Link href="#products" legacyBehavior>
+                <a className="text-gray-950 hover:text-yellow-500 text-color" onClick={toggleMenu}>
                   Products
                 </a>
               </Link>
-              <Link href="#community">
-                <a className="text-gray-950 hover:text-yellow-500" onClick={toggleMenu}>
+              <Link href="#community" legacyBehavior>
+                <a className="text-gray-950 hover:text-yellow-500 text-color" onClick={toggleMenu}>
                   Community
                 </a>
               </Link>
-              <Link href="#contact">
-                <a className="text-gray-950 hover:text-yellow-500" onClick={toggleMenu}>
+              <Link href="#contact" legacyBehavior>
+                <a className="text-gray-950 hover:text-yellow-500 text-color" onClick={toggleMenu}>
                   Contact
                 </a>
               </Link>

@@ -4,7 +4,7 @@ import { Button, Container } from '@mui/material';
 const Features = () => {
   return (
     <Container>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-3">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-2">
       
       <div className="bg-white shadow-lg rounded-lg p-6 text-left">
         <h3 className="text-2xl font-semibold text-green-600 mb-3">Predictive Analytics</h3>
