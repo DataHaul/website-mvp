@@ -38,7 +38,7 @@ const Navbar = () => {
 </div>
 
 
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 text-color">
           <Link href="/">
             Home
           </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
 
         
         <div className="md:hidden">
-          <IconButton onClick={toggleMenu} className="text-white">
+          <IconButton onClick={toggleMenu} className="text-gray-950">
             {isOpen ? <CloseIcon /> : <MenuIcon />}
           </IconButton>
         </div>
@@ -68,27 +68,27 @@ const Navbar = () => {
           <div className="absolute top-16 left-0 w-full bg-[white]/40 bg-opacity-80 backdrop-blur-lg md:hidden">
             <div className="flex flex-col items-center space-y-4 py-4">
               <Link href="/">
-                <a className="text-white hover:text-yellow-500" onClick={toggleMenu}>
+                <a className="text-gray-950 hover:text-yellow-500 text-color" onClick={toggleMenu}>
                   Home
                 </a>
               </Link>
               <Link href="#about">
-                <a className="text-white hover:text-yellow-500" onClick={toggleMenu}>
+                <a className="text-gray-950 hover:text-yellow-500 text-color" onClick={toggleMenu}>
                   About
                 </a>
               </Link>
               <Link href="#products">
-                <a className="text-white hover:text-yellow-500" onClick={toggleMenu}>
+                <a className="text-gray-950 hover:text-yellow-500" onClick={toggleMenu}>
                   Products
                 </a>
               </Link>
               <Link href="#community">
-                <a className="text-white hover:text-yellow-500" onClick={toggleMenu}>
+                <a className="text-gray-950 hover:text-yellow-500" onClick={toggleMenu}>
                   Community
                 </a>
               </Link>
               <Link href="#contact">
-                <a className="text-white hover:text-yellow-500" onClick={toggleMenu}>
+                <a className="text-gray-950 hover:text-yellow-500" onClick={toggleMenu}>
                   Contact
                 </a>
               </Link>

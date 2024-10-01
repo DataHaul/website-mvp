@@ -17,14 +17,13 @@ const HeroSection = () => {
 
      
       <div className="hidden md:block w-full md:w-1/2 h-full relative">
-        <Image
+        <img
           src="/images/DataHaul.webp"
           alt="Farmers in the field"
-          // layout="fill"
-          // objectFit="cover"
-          style={{ objectFit: 'cover' }}
-          priority={true}
-          fill={true}
+
+          fill="true" 
+          priority="true"
+          // priority={true}
         />
       </div>
       
