@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
       <div className="text-2xl font-bold text-black flex items-center">
-  <Image src="/images/Logo.webp" alt="DataHaul Logo" width={70} height={65} className="mr-2" />
+  <img src="/images/Logo.webp" alt="DataHaul Logo" width={70} height={65} className="mr-2" />
   <Link href="/">
     DataHaul
   </Link>
