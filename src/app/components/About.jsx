@@ -4,9 +4,9 @@ import { Button, Container } from '@mui/material';
 const FeaturesSection = () => {
   return (
     <Container>
-      <section className="flex flex-col md:flex-row mt-8">
+      <section className="flex flex-col md:flex-row mt-8 mb-3">
 
-        <div className="flex items-center justify-center bg-white p-8">
+        <div className="flex items-center justify-center bg-white p-8 rounded-md">
           <div className="grid grid-cols-2 gap-2">
             
             {[
@@ -35,12 +35,12 @@ const FeaturesSection = () => {
     <span className="text-black">Leading the Way in </span>
     <span className="text-green-600">Data Logistics and Analytics</span>
   </h2>
-            <h2 className='text-xl'>
+            <h2 className='text-xl text-slate-950 mt-2'>
               At Datahaul, we specialize in transforming complex data into actionable insights. Our innovative solutions streamline data flow and empower businesses to make data-driven decisions effectively.
             </h2>
 
            
-            <Button variant="contained"   sx={{ 
+            <Button variant="contained"   sx={{ marginTop: '15px',
     backgroundColor: 'green', 
     color: 'white', 
     '&:hover': { 
