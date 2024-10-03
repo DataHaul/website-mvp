@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link href="#community">
             Community
           </Link>
-          <Link href="#contact">
+          <Link href="/contact">
             Contact
           </Link>
         </div>
